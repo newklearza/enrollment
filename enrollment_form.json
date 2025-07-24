@@ -1,0 +1,56 @@
+{
+  "categories": [
+    {
+      "name": "Parent/Guardian Details",
+      "items": [
+        { "name": "Parent Full Name", "description": "First and last name of parent or guardian", "type": "text" },
+        { "name": "Contact Number", "description": "Mobile number (e.g. 071 234 5678)", "type": "tel" },
+        { "name": "Email Address", "description": "Valid email for communication", "type": "email" },
+        { "name": "Home Address", "description": "Street name, number, suburb, city", "type": "text" },
+        { "name": "Relationship to Student", "description": "e.g. Mother, Father, Guardian", "type": "text" }
+      ]
+    },
+    {
+      "name": "Student Details",
+      "items": [
+        { "name": "Student Full Name", "description": "Child’s full name", "type": "text" },
+        { "name": "Date of Birth", "description": "YYYY-MM-DD", "type": "date" },
+        { "name": "Age", "description": "Current age", "type": "number" },
+        { "name": "Gender", "description": "Select gender", "type": "select", "options": ["Male", "Female", "Other"] },
+        { "name": "Grade Applying For", "description": "Choose grade or class", "type": "select", "options": ["Creche", "Grade R", "Grade 1", "Grade 2", "Grade 3", "Other"] }
+      ]
+    },
+    {
+      "name": "Enrollment Information",
+      "items": [
+        { "name": "How many children are you enrolling?", "description": "Number of students", "type": "number" },
+        { "name": "Preferred Start Date", "description": "When would you like enrollment to begin?", "type": "date" },
+        { "name": "Session Preference", "description": "Choose daily schedule", "type": "select", "options": ["Half Day", "Full Day", "Aftercare Only"] }
+      ]
+    },
+    {
+      "name": "Medical Information",
+      "items": [
+        { "name": "Known Allergies", "description": "E.g. nuts, eggs, bee stings", "type": "text" },
+        { "name": "Chronic Conditions", "description": "E.g. asthma, epilepsy, diabetes", "type": "text" },
+        { "name": "Medical Aid Provider", "description": "Name of medical aid (if applicable)", "type": "text" },
+        { "name": "Medical Aid Number", "description": "Policy or membership number", "type": "text" },
+        { "name": "Emergency Contact Name", "description": "Who to contact in emergency", "type": "text" },
+        { "name": "Emergency Contact Number", "description": "Phone number", "type": "tel" }
+      ]
+    },
+    {
+      "name": "Dietary Requirements",
+      "items": [
+        { "name": "Special Diet", "description": "Vegetarian, Vegan, Halaal, etc.", "type": "text" },
+        { "name": "Foods to Avoid", "description": "E.g. sweets, dairy, etc.", "type": "text" }
+      ]
+    },
+    {
+      "name": "Additional Notes",
+      "items": [
+        { "name": "Anything Else You’d Like Us to Know?", "description": "Optional notes", "type": "textarea" }
+      ]
+    }
+  ]
+}
