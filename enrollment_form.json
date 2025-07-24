@@ -47,6 +47,34 @@
       ]
     },
     {
+      "name": "Extra Mural Activities",
+      "items": [
+        {
+          "name": "Select Activities",
+          "description": "Choose one or more extracurricular activities your child may participate in.",
+          "type": "checkboxes",
+          "options": [
+            "Soccer",
+            "Netball",
+            "Ballet",
+            "Chess",
+            "Swimming",
+            "Art Class",
+            "Drama / Acting",
+            "Music / Choir",
+            "Coding Club",
+            "Athletics",
+            "Karate / Martial Arts"
+          ]
+        },
+        {
+          "name": "Other Activity (if not listed)",
+          "description": "Please specify any other activity you'd like us to consider.",
+          "type": "text"
+        }
+      ]
+    },
+    {
       "name": "Additional Notes",
       "items": [
         { "name": "Anything Else You’d Like Us to Know?", "description": "Optional notes", "type": "textarea" }
